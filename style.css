@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 10px;
+    width: 80%;
+    margin-right: 10px;
+}
+button {
+    padding: 10px;
+    display: inline-block;
+}
+p.taskItem {
+    display: inline-block;
+    margin-right: 60%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-right: 20px;
+}
+li {
+    display: block;
+    /*justify-content: space-end;*/
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    /*width: 250px;*/
+}
